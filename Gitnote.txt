@@ -1,0 +1,15 @@
+git init: Khởi tạo một kho Git mới trong thư mục hiện tại.
+git clone <repository>: Sao chép một kho Git từ một URL xa thành một bản sao cục bộ.
+git add <file>: Thêm một tệp cụ thể vào chỉ mục (staging area) để chuẩn bị cho commit.
+git commit -m "<message>": Tạo một commit mới với thông điệp tương ứng.
+git status: Hiển thị trạng thái của các tệp trong kho Git.
+git log: Xem lịch sử commit của kho Git.
+git branch: Liệt kê các nhánh hiện có trong kho Git.
+git checkout <branch>: Chuyển đổi sang một nhánh khác trong kho Git.
+git merge <branch>: Kết hợp nhánh hiện tại với một nhánh khác.
+git pull: Tải xuống các thay đổi mới nhất từ kho Git từ xa và kết hợp chúng vào nhánh hiện tại.
+git push: Đẩy các commit đã thay đổi lên kho Git từ xa.
+git remote add <name> <url>: Thêm một kho Git từ xa với tên được chỉ định và URL tương ứng.
+git diff: Hiển thị sự khác biệt giữa các thay đổi chưa được chuẩn bị và commit cuối cùng.
+git reset: Hủy bỏ các thay đổi chưa được chuẩn bị và quay lại trạng thái commit trước đó.
+git stash: Ẩn các thay đổi chưa được commit trong một kho chứa tạm thời (stash).
